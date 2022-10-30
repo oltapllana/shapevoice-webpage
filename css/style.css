@@ -468,3 +468,235 @@ height: 180px;
 .testimonials__author{
     margin-top: -80px;
 }
+.blog__left--text{
+    width: 459px;
+    height: 50px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 1196px;
+height: 518px;
+}
+.blog__left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.blog__subtitle{
+    width: 378px;
+height: 72px;
+}
+.blog__text{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #64607D;
+    margin-top: 14px;
+}
+.blog__subtitle{
+    margin-left: 0;
+}
+.blog__info{
+    margin-left: 0;
+    width: 378px;
+height: 90px;
+    margin-top: 10px;
+}
+.blog__right{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.blog__right--row img{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.blog__right--row h2{
+    margin-top: 0;
+}
+.blog__date{
+    margin-right: 20px;
+}
+.blog__right--row img, .blog__right--row p, .blog__right--row h2{
+    margin-top: 0; 
+}
+.blog__left--text{
+    margin: 20px;
+}
+.line{
+    width: 378px;
+    height: 2px;
+    background: #DEE1E6;
+}
+.contact__text{
+    width: 446px;
+    height: 60px;
+}
+.contact{
+    margin-top: 100px;
+}
+.contact__form{
+    margin-left: 25px;
+}
+.contact{
+    width: 1440px;
+    height: 450px;
+    background: #3734A9;
+    margin-left: -201px;
+}
+.contact p, .contact h2{
+    color: white;
+}
+.contact__div{
+    margin-top: 60px;
+}
+.contact__form{
+    margin-top: 78px;
+}
+.contact input{
+    
+background: #F2F3F4;
+opacity: 0.2;
+
+}
+
+.main-footer {
+    width: 1140px;
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 123px;
+    margin-bottom: 50px;
+}
+.main-footer_information {
+    width: 1140px;
+    height: 198px;
+    display: flex;
+}
+.main-footer hr {
+    width: 1140px;
+    height: 3px;
+    margin-top: 59px;
+    margin-bottom: 40px;
+    background: #E5E5EA;
+    opacity: 0.4;
+}
+.main-footer_cr {
+    width: 676px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 250px;
+    letter-spacing: -0.02em;
+    color: #181433;
+}
+.main-footer__social {
+    width: 213px;
+    height: 153px;
+}
+.footer__list {
+    width: 881px;
+    height: 198px;
+    margin-left: 46px;
+    display: flex;
+}
+.footer__title {
+    width: 174px;
+    height: 28px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #1B1C31;
+}
+.footer--social__text {
+    width: 213px;
+    height: 56px;
+    margin-top: 18px;
+    margin-bottom: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #757095;
+}
+.footer-list_company {
+    width: 97px;
+    height: 198px;
+}
+.footer-list_resources {
+    width: 174px;
+    height: 180px;
+    margin-left: 137px;
+}
+.footer__newsletter {
+    width: 389px;
+    height: 173px;
+    margin-left: 84px;
+}
+
+.footer-list__ul {
+    width: 69px;
+    height: 140px;
+    margin-top: 15px;
+}
+.footer-list__ul li {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181433;
+}
+.footer-list__ul--res {
+    width: 174px;
+    height: 132px;
+}
+.footer-list__ul--res li {
+    margin-top: 12px;
+}
+.footer-list__form {
+    width: 389px;
+    height: 52px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    display: flex;
+    background: #F9F9F9;
+}
+.footer-list__form input {
+    width: 135px;
+    height: 26px;
+    border: none;
+    margin: 15px 90px 11px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #181433;
+    opacity: 0.3;
+}
+.btn--footer {
+    width: 149px;
+    height: 52px;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+.footer__text{
+    width: 329px;
+    height: 52px;
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #181433;
+    opacity: 0.5;
+}
+.main-footer .container{
+    margin-left: 302px;
+}
